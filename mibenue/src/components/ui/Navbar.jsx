@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Home, Info, Boxes, Mail, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import WaitlistForm from "@/components/ui/WaitlistForm"; // 👈 import the form
+import WaitlistForm from "@/components/WaitlistForm"; // 👈 import the form
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
